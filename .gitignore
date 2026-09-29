@@ -1,0 +1,5 @@
+node_modules/
+# Local data written by the server: cached YouTube captions (Bloomberg's text)
+# and your bitácora entries. Both are recreated on demand.
+storage/
+*.tmp

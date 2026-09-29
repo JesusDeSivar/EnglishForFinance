@@ -1,0 +1,10 @@
+{
+  "name": "bips",
+  "private": true,
+  "description": "Duolingo-style app for learning the English of bond markets (Spanish UI).",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
