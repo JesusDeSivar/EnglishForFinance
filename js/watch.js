@@ -4,10 +4,11 @@
 import { SHOWS } from '../data/media.js';
 import { S, saveTranscript } from './store.js';
 import { annotate, findTerms, exercisesFromText, sentences, closePopover } from './text.js';
-import { getTranscript } from './api.js';
+import { getTranscript, getEpisodes } from './api.js';
 import { esc, ICON, $, $$, fmtTime } from './util.js';
 
 let ytReady = null;
+let picked = false;          // the user chose a video this session: don't switch it for them
 const fetched = new Map(); // videoId -> segments from the server (kept for this session)
 
 const toRaw = segs => segs.map(s => (s.t != null ? `${fmtTime(s.t)}\n${s.text}` : s.text)).join('\n');
@@ -39,9 +40,16 @@ function loadYT() {
   return ytReady;
 }
 
-const fmtDate = d => d ? new Date(d + 'T12:00').toLocaleDateString('es', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
+const fmtDate = d => {
+  if (!d) return '';
+  const date = new Date(d + 'T12:00');
+  return date.toLocaleDateString('es', { day: 'numeric', month: 'short', ...(date.getFullYear() !== new Date().getFullYear() && { year: 'numeric' }) });
+};
 
-function sourceHTML(show) {
+// "US Yields Surge… | Real Yield 9/10/2026" → "US Yields Surge…" (the date is shown separately).
+export const shortTitle = t => t.replace(/\s*\|\s*(?:Bloomberg\s+)?(?:Real Yield|The Close|Money Stuff)\b[^|]*$/i, '').trim() || t;
+
+function sourceHTML(show, list) {
   const saved = S().transcripts;
   return `
     <div class="card source">
@@ -51,16 +59,16 @@ function sourceHTML(show) {
       </div>
       <p class="small">${esc(show.blurb)}</p>
       <div class="episodes">
-        ${show.episodes.map(e => `
-          <button class="episode" data-v="${e.v}" data-title="${esc(e.title)}" data-show="${esc(show.name)}">
+        ${list.map(e => `
+          <button class="episode" data-v="${e.v}" data-title="${esc(shortTitle(e.title))}" data-show="${esc(show.name)}">
             <span class="ep-play">${ICON.play}</span>
-            <span class="ep-title">${esc(e.title)}</span>
+            <span class="ep-title">${esc(shortTitle(e.title))}</span>
             ${saved[e.v] ? '<span class="ep-badge">📝</span>' : ''}
             <span class="ep-date">${fmtDate(e.date)}</span>
           </button>`).join('')}
-        <button class="episode latest" data-list="${show.playlist}" data-show="${esc(show.name)}">
-          <span class="ep-play">${ICON.play}</span><span class="ep-title">Lista completa en YouTube</span>
-        </button>
+        <a class="episode latest" href="${show.more}" target="_blank" rel="noopener">
+          <span class="ep-play">${ICON.ext}</span><span class="ep-title">Ver todos en YouTube</span>
+        </a>
       </div>
       ${show.spotify ? `
         <details class="spotify">
@@ -122,7 +130,8 @@ export function renderWatch(view, { startPractice }) {
             </div>
           </div>
           <div class="sources">
-            ${SHOWS.map(sourceHTML).join('')}
+            <div class="show-cards"></div>
+            <p class="muted small list-note"></p>
             <form class="card url-form">
               <h3>¿Otro video?</h3>
               <p class="muted small">Pega un link de YouTube: entrevistas de Bloomberg, conferencias de la Fed, Odd Lots…</p>
@@ -145,8 +154,17 @@ export function renderWatch(view, { startPractice }) {
 
   const body = $('.tr-body', view);
 
+  // Built-in episodes first, then swap in the live list when it arrives.
+  function drawSources(data) {
+    $('.show-cards', view).innerHTML = SHOWS.map(s => sourceHTML(s, data?.shows?.[s.id]?.length ? data.shows[s.id] : s.episodes)).join('');
+    $('.list-note', view).textContent = data?.generatedAt
+      ? `Lista actualizada ${new Date(data.generatedAt).toLocaleString('es', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}.`
+      : '';
+    $$('.episode', view).forEach(b => b.classList.toggle('on', b.dataset.v === cur.v));
+  }
+
   function setNow() {
-    $('.now-title', view).textContent = cur.title || 'Video de YouTube';
+    $('.now-title', view).textContent = shortTitle(cur.title || '') || 'Video de YouTube';
     $('.now-show', view).textContent = cur.show || '';
     $('.yt-link', view).href = `https://www.youtube.com/watch?v=${cur.v}`;
     $$('.episode', view).forEach(b => b.classList.toggle('on', b.dataset.v === cur.v));
@@ -164,14 +182,22 @@ export function renderWatch(view, { startPractice }) {
     const v = cur.v;
     getTranscript(v)
       .then(data => { fetched.set(v, data.segments); if (cur.v === v && view.isConnected) renderTranscript(); })
-      .catch(err => { if (cur.v === v && view.isConnected) showPaste(err.message); });
+      .catch(err => { if (cur.v === v && view.isConnected) showPaste(err); });
   }
 
-  function showPaste(reason) {
+  function showPaste(err) {
+    const lead = err.code === 'NO_SERVER'
+      ? `<p class="tr-lead"><b>Esta versión web no puede traer transcripciones.</b> Las transcripciones automáticas necesitan el servidor de la app, que corre en tu PC.</p>
+         <div class="tip-box small">
+           <b>En el celular:</b> en tu PC ejecuta <code>npm run phone</code> y abre en el celular la dirección que aparece
+           (misma red Wi-Fi). Todo funciona igual que en la PC, incluida la bitácora.
+         </div>
+         <p class="muted small">Mientras tanto, el video muestra subtítulos en inglés (CC). También puedes pegar la transcripción a mano:</p>`
+      : `<p class="tr-lead"><b>No pudimos traer la transcripción automáticamente.</b> <span class="muted small">(${esc(err.message)})</span></p>
+         <p class="muted small">El video igual muestra subtítulos en inglés (CC). Para la versión interactiva, pégala a mano:</p>`;
     body.innerHTML = `
       <div class="tr-empty">
-        <p class="tr-lead"><b>No pudimos traer la transcripción automáticamente.</b> <span class="muted small">(${esc(reason)})</span></p>
-        <p class="muted small">El video igual muestra subtítulos en inglés (CC). Para la versión interactiva, pégala a mano:</p>
+        ${lead}
         <ol class="steps">
           <li>Abre el video en <a href="https://www.youtube.com/watch?v=${cur.v}" target="_blank" rel="noopener">YouTube ${ICON.ext}</a>.</li>
           <li>En la descripción, haz clic en <b>…más</b> y luego en <b>Mostrar transcripción</b>.</li>
@@ -297,10 +323,10 @@ export function renderWatch(view, { startPractice }) {
   }
 
   view.addEventListener('click', e => {
-    const ep = e.target.closest('.episode');
+    const ep = e.target.closest('.episode[data-v]');
     if (ep) {
-      if (ep.dataset.list) load({ list: ep.dataset.list, show: ep.dataset.show });
-      else load({ v: ep.dataset.v, title: ep.dataset.title, show: ep.dataset.show });
+      picked = true;
+      load({ v: ep.dataset.v, title: ep.dataset.title, show: ep.dataset.show });
       if (innerWidth < 1000) $('.player-card', view).scrollIntoView({ behavior: 'smooth' });
       return;
     }
@@ -317,13 +343,30 @@ export function renderWatch(view, { startPractice }) {
     const m = input.value.match(/(?:v=|youtu\.be\/|embed\/|shorts\/|live\/)([\w-]{11})/) || input.value.match(/^([\w-]{11})$/);
     const list = input.value.match(/[?&]list=([\w-]+)/);
     if (!m && !list) { input.classList.add('shake'); setTimeout(() => input.classList.remove('shake'), 500); return; }
+    picked = true;
     if (m) load({ v: m[1], title: 'Video de YouTube', show: 'Tu link' });
     else load({ list: list[1], show: 'Tu lista' });
     input.value = '';
   };
 
+  drawSources(null);
   setNow();
   renderTranscript();
+
+  // Live list: redraw, and start on the newest Real Yield unless the user already chose something.
+  getEpisodes().then(data => {
+    if (!data || !view.isConnected) return;
+    drawSources(data);
+    const newest = data.shows?.[SHOWS[0].id]?.[0];
+    const playing = player?.getPlayerState?.() === 1;
+    if (!picked && newest && newest.v !== cur.v && !playing) {
+      cur = { v: newest.v, title: shortTitle(newest.title), show: SHOWS[0].name };
+      setNow();
+      renderTranscript();
+      player?.cueVideoById?.(newest.v);
+    }
+  });
+
   loadYT().then(() => {
     if (!view.isConnected) return;
     player = new YT.Player('yt', {

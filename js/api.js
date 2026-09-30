@@ -1,6 +1,8 @@
 // Client for the local server. If the app is served without it (plain static hosting),
 // the bitácora falls back to this browser's storage and transcripts go back to copy-paste.
 
+import { EPISODES_JSON_URL } from '../data/media.js';
+
 const LOCAL_KEY = 'bips.corrections';
 let health = null;
 
@@ -22,8 +24,31 @@ async function call(method, path, body) {
 }
 
 export async function getTranscript(videoId, { refresh = false } = {}) {
-  if (!(await hasServer())) throw new Error('Sin servidor: pega la transcripción manualmente.');
+  if (!(await hasServer())) {
+    const err = new Error('Esta versión no tiene servidor.');
+    err.code = 'NO_SERVER';
+    throw err;
+  }
   return call('GET', `/transcript/${videoId}${refresh ? '?refresh' : ''}`);
+}
+
+// Latest episodes: live from the server, else the list the GitHub Action refreshes
+// (raw file on main, then this site's copy). Null means "use the built-in fallback".
+let episodesPromise = null;
+export function getEpisodes() {
+  episodesPromise ??= (async () => {
+    if (await hasServer()) {
+      try { return await call('GET', '/episodes'); } catch { /* fall through to the static list */ }
+    }
+    for (const url of [EPISODES_JSON_URL, 'data/episodes.json']) {
+      try {
+        const res = await fetch(url, { cache: 'no-cache' });
+        if (res.ok) return await res.json();
+      } catch { /* try the next one */ }
+    }
+    return null;
+  })();
+  return episodesPromise;
 }
 
 // ---- bitácora ----

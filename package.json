@@ -5,6 +5,8 @@
   "type": "module",
   "engines": { "node": ">=18" },
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node server.mjs",
+    "phone": "node server.mjs --lan",
+    "episodes": "node scripts/update-episodes.mjs"
   }
 }

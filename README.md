@@ -13,7 +13,7 @@ The interface, instructions and explanations are in **Spanish**; everything you 
 ## Features
 
 - **Aprender (Learn).** 6 units, 21 lessons and 176 exercises in six formats: multiple choice, before/after yield-curve charts (name the move: bull steepener, bear flattener…), matching pairs, sentence building with word tiles, listening with a slow-speed button, and typed numbers ("tens at four thirty-two" → 4.32). Hearts, XP, streaks and a daily goal. Wrong answers come back at the end of the lesson.
-- **Ver y escuchar (Watch & listen).** Official YouTube embeds of *Real Yield*, *The Close* and the *Money Stuff* podcast, with English captions and 0.75×/1×/1.25× speed. Transcripts load automatically: click a line to jump there, loop a single sentence, or blur the text to train your ear. You can generate practice exercises from any episode.
+- **Ver y escuchar (Watch & listen).** Official YouTube embeds of *Real Yield*, *The Close* and the *Money Stuff* podcast, with English captions and 0.75×/1×/1.25× speed. The episode lists update themselves. Transcripts load automatically: click a line to jump there, loop a single sentence, or blur the text to train your ear. You can generate practice exercises from any episode.
 - **Tu texto (Your text).** Paste the day's *Money Stuff* email (or a research note, or a news story). Finance jargon, idioms and tone markers (Levine's "Sure… but", "anyway", "I mean") are highlighted. Tap any word to translate or save it, listen by paragraph, and practice with exercises built from that text.
 - **Repaso (Review).** Spaced repetition for every term you meet in lessons or save while reading.
 - **Glosario (Glossary).** About 325 terms, from *2s10s* and *term premium* to *creditor-on-creditor violence*, explained in Spanish with examples and audio.
@@ -31,9 +31,38 @@ npm start
 
 Open **http://localhost:5173**.
 
-To use it from your phone on the same Wi-Fi, run `HOST=0.0.0.0 npm start` (in PowerShell: `$env:HOST='0.0.0.0'; npm start`) and open `http://<your-computer's-IP>:5173`.
-
 Progress is saved in your browser (`localStorage`). Audio uses the text-to-speech voices built into your system.
+
+### On your phone
+
+```bash
+npm run phone
+```
+
+This starts the same server, reachable from other devices, and prints the address to open on your phone:
+
+- **Same Wi-Fi:** use the address labelled with your Wi-Fi adapter.
+- **From anywhere:** if [Tailscale](https://tailscale.com) is installed on both the computer and the phone, use the `100.x.x.x` address. It works outside your home network, as long as the computer is on.
+
+The first time, Windows may ask whether Node.js can use the network; allow it for private networks.
+
+### The GitHub Pages version
+
+The static copy at **https://jesusdesivar.github.io/EnglishForFinance/** works without a server: lessons, the reader, review and the glossary all work, and the episode lists stay current.
+
+What it can't do is anything that needs the server:
+- **Transcripts** don't load automatically. You can still paste them.
+- **Bitácora** entries are saved only in that browser.
+
+For those features on your phone, use `npm run phone`.
+
+### Scripts
+
+| Command | What it does |
+|---|---|
+| `npm start` | App and API on `localhost` only |
+| `npm run phone` | Same, reachable from your phone (Wi-Fi or Tailscale) |
+| `npm run episodes` | Refresh `data/episodes.json` by hand (a GitHub Action also does it every 6 hours) |
 
 ## Course
 
@@ -51,6 +80,11 @@ Progress is saved in your browser (`localStorage`). Audio uses the text-to-speec
 - **No build step.** The front end is vanilla ES modules plus CSS. `server.mjs` is a zero-dependency Node server that serves the app and a small JSON API.
 - **Text engine** (`js/text.js`). Every glossary alias is compiled into one regular expression, longest match first, so any English text can be highlighted, explained and turned into exercises.
 - **Transcripts** (`server/youtube.mjs`). Captions are fetched through YouTube's InnerTube API (Android client), with the watch page and the transcript panel as fallbacks. They're cached in `storage/transcripts/`. Bloomberg TV captions arrive in ALL CAPS and are converted to sentence case, keeping acronyms (CPI, FOMC, EMBI…) and names.
+- **Episode lists** (`server/episodes.mjs`). YouTube's RSS feeds are gone, so the latest episodes come from InnerTube:
+  - *Money Stuff* comes from its playlist, which is kept newest first.
+  - *Real Yield* and *The Close* come from a search inside Bloomberg Television's channel, merged with a search sorted by upload date and ordered by the air date in each title.
+
+  The server serves the list live at `/api/episodes`. For the static site, the [Update episodes](.github/workflows/episodes.yml) workflow rewrites `data/episodes.json` every 6 hours, and only commits when a newer episode appears.
 - **Bitácora** (`server/corrections.mjs`). Reports are stored in `storage/corrections.json` with serialized writes. When the server isn't running, the app falls back to storing reports in the browser and asks you to paste transcripts by hand.
 
 ### API
@@ -59,6 +93,7 @@ Progress is saved in your browser (`localStorage`). Audio uses the text-to-speec
 |---|---|---|
 | `GET` | `/api/health` | Health check |
 | `GET` | `/api/transcript/:videoId[?refresh]` | English captions for a YouTube video (cached) |
+| `GET` | `/api/episodes` | Latest episodes of each show (cached for 1 hour) |
 | `GET` / `POST` | `/api/corrections` | List / create log entries |
 | `PATCH` / `DELETE` | `/api/corrections/:id` | Update `{ status, note }` / delete |
 | `POST` | `/api/corrections/:id/comments` | Add `{ text, by: "you" \| "claude" }` |
@@ -70,10 +105,13 @@ The server listens only on `localhost` unless `HOST` is set, because the API wri
 ```
 server.mjs              HTTP server + API
 server/youtube.mjs      caption fetching and cleanup
+server/episodes.mjs     latest episodes per show
 server/corrections.mjs  the bitácora store
+scripts/update-episodes.mjs  writes data/episodes.json (used by the GitHub Action)
 data/lessons.js         units and exercises
 data/glossary.js        terms, Spanish explanations, aliases
-data/media.js           shows, episodes, playlists
+data/media.js           shows and where their episodes come from
+data/episodes.json      latest episodes (generated)
 js/app.js               router and home
 js/lesson.js            lesson player and exercise types
 js/watch.js             YouTube player and interactive transcript

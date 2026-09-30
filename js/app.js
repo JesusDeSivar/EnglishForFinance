@@ -4,7 +4,8 @@ import { S, streak, xpToday, lastWeek, dueCards, resetAll } from './store.js';
 import { installPopovers, closePopover, exercisesFromText } from './text.js';
 import { speak, stopSpeaking, canSpeak } from './speech.js';
 import { playLesson } from './lesson.js';
-import { renderWatch } from './watch.js';
+import { renderWatch, shortTitle } from './watch.js';
+import { getEpisodes } from './api.js';
 import { renderRead } from './read.js';
 import { renderReview, renderGlossary } from './review.js';
 import { renderLog } from './log.js';
@@ -75,7 +76,7 @@ function renderLearn(el) {
             <h3>Para hoy</h3>
             ${due ? `<a class="todo" href="#/review"><span class="todo-icon">🔁</span><span><b>Repasa ${due} tarjeta${due > 1 ? 's' : ''}</b><small>Unos minutos para no olvidar la jerga.</small></span></a>` : ''}
             ${next ? `<a class="todo" href="#/lesson/${next.id}"><span class="todo-icon">${next.icon}</span><span><b>${esc(next.title)}</b><small>Siguiente lección · ${esc(next.unit.title)}</small></span></a>` : ''}
-            <a class="todo" href="#/watch"><span class="todo-icon">📺</span><span><b>Mira Real Yield</b><small>${esc(latest.title)}</small></span></a>
+            <a class="todo" href="#/watch"><span class="todo-icon">📺</span><span><b>Mira Real Yield</b><small data-latest>${esc(shortTitle(latest.title))}</small></span></a>
             <a class="todo" href="#/read"><span class="todo-icon">📰</span><span><b>Pega el Money Stuff de hoy</b><small>Convierte el newsletter en una lección.</small></span></a>
           </div>
           ${canSpeak ? '' : '<p class="muted small">Tu navegador no tiene voz sintética: los ejercicios de audio no sonarán.</p>'}
@@ -83,6 +84,12 @@ function renderLearn(el) {
         </aside>
       </div>
     </div>`;
+
+  getEpisodes().then(d => {
+    const newest = d?.shows?.[SHOWS[0].id]?.[0];
+    const slot = $('[data-latest]', el);
+    if (newest && slot?.isConnected) slot.textContent = shortTitle(newest.title);
+  });
 
   $('.reset', el).onclick = () => { if (confirm('¿Borrar todo tu progreso, tarjetas y textos guardados?')) { resetAll(); renderLearn(el); } };
   requestAnimationFrame(() => $('.node.next', el)?.scrollIntoView({ block: 'center' }));

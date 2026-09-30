@@ -485,6 +485,12 @@ a.stat:hover { background: var(--surface-2); }
 .episode.on { background: var(--sel-bg); border-color: var(--sel-border); }
 .ep-play { flex: none; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; background: var(--red); color: #fff; }
 .episode.latest .ep-play { background: var(--muted); }
+a.episode { text-decoration: none; }
+.show-cards { display: contents; }
+.list-note { grid-column: 1 / -1; margin: -6px 0 0; }
+.list-note:empty { display: none; }
+.tip-box { padding: 10px 12px; border-radius: 12px; background: var(--sel-bg); border: 2px solid var(--sel-border); line-height: 1.5; }
+.tip-box code, .tr-empty code { font-size: 12px; background: var(--surface-2); padding: 1px 6px; border-radius: 6px; }
 .ep-title { flex: 1; }
 .ep-date { font-size: 12px; color: var(--muted); white-space: nowrap; }
 .ep-badge { font-size: 13px; }
