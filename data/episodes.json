@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T03:32:22.078Z",
+  "generatedAt": "2026-09-30T03:35:15.008Z",
   "shows": {
     "realyield": [
       {
@@ -75,6 +75,13 @@
         "exact": true
       },
       {
+        "v": "0nOvAeSmccM",
+        "title": "Inside T. Rowe Price: Markets, AI & the Future of Investing | The Close 8/31/2026",
+        "length": "1:31:23",
+        "date": "2026-08-31",
+        "exact": true
+      },
+      {
         "v": "knpmSP45F7w",
         "title": "Warsh Says Inflation Isn't Slowing | The Close 8/28/2026",
         "length": "1:40:21",
@@ -107,13 +114,6 @@
         "title": "Markets Slip as Nvidia, Yields & the Debasement Trade Loom | The Close 8/24/2026",
         "length": "1:29:36",
         "date": "2026-08-24",
-        "exact": true
-      },
-      {
-        "v": "j-61xcBNGew",
-        "title": "Chip Stocks Slide as Global Bond Anxiety Builds | The Close 8/18/2026",
-        "length": "1:28:52",
-        "date": "2026-08-18",
         "exact": true
       }
     ],
@@ -175,5 +175,10 @@
         "exact": false
       }
     ]
+  },
+  "captionsProbe": {
+    "ok": false,
+    "error": "No se pudo obtener la transcripción (android: playability LOGIN_REQUIRED; watch-page: playability LOGIN_REQUIRED; get_transcript: get_transcript 400).",
+    "at": "2026-09-30T03:35:15.008Z"
   }
 }
