@@ -7,7 +7,10 @@ const LOCAL_KEY = 'bips.corrections';
 let health = null;
 
 export function hasServer() {
-  health ??= fetch('/api/health').then(r => r.ok).catch(() => false);
+  // GitHub Pages is static: don't probe for an API that can't be there.
+  health ??= location.hostname.endsWith('github.io')
+    ? Promise.resolve(false)
+    : fetch('/api/health').then(r => r.ok).catch(() => false);
   return health;
 }
 
