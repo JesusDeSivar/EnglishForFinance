@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T01:56:11.992Z",
+  "generatedAt": "2026-10-01T22:46:28.297Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "o4mJAveb12w",
+        "title": "Nike Earnings Disappoint as China Sales Lag",
+        "length": "1:32:21",
+        "date": "2026-10-01",
+        "exact": false
+      },
+      {
         "v": "HSVnwW5hXKg",
         "title": "September Market Recap & Micron’s AI Boom",
         "length": "1:31:40",
@@ -107,13 +114,6 @@
         "title": "AI & Chip Stocks Lead Markets Higher",
         "length": "1:29:10",
         "date": "2026-09-22",
-        "exact": false
-      },
-      {
-        "v": "FNRqz1lBB0Q",
-        "title": "Tech Stocks Rally as Oil & Treasury Yields Retreat",
-        "length": "1:29:05",
-        "date": "2026-09-21",
         "exact": false
       }
     ],
