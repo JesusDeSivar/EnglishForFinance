@@ -1,7 +1,14 @@
 {
-  "generatedAt": "2026-09-30T03:35:15.008Z",
+  "generatedAt": "2026-10-01T01:56:11.992Z",
   "shows": {
     "realyield": [
+      {
+        "v": "dq-oE539kzU",
+        "title": "Bond Yields Soar, Spiking Fed Rate Hike Bets",
+        "length": "36:36",
+        "date": "2026-09-24",
+        "exact": false
+      },
       {
         "v": "a0veIlccyps",
         "title": "Fed Hikes, Warsh's Credibility, Credit Concerns | Real Yield 9/17/2026",
@@ -31,13 +38,6 @@
         "exact": true
       },
       {
-        "v": "kfuu0HL895E",
-        "title": "Full Show: Bloomberg Real Yield (08/25)",
-        "length": "22:26",
-        "date": "2026-08-25",
-        "exact": true
-      },
-      {
         "v": "5tXMlxjGsiI",
         "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
         "length": "44:24",
@@ -61,60 +61,60 @@
     ],
     "theclose": [
       {
-        "v": "KuFKfbFZbZc",
-        "title": "OpenAI’s Altman Unveils Astra as a New Step Toward AGI | The Close 9/3/2026",
-        "length": "1:35:43",
-        "date": "2026-09-03",
-        "exact": true
+        "v": "HSVnwW5hXKg",
+        "title": "September Market Recap & Micron’s AI Boom",
+        "length": "1:31:40",
+        "date": "2026-09-30",
+        "exact": false
       },
       {
-        "v": "4sn6pQGVJjE",
-        "title": "Markets Rebound as Oil, Yields & AI Remain in Focus | The Close 9/2/2026",
-        "length": "1:34:43",
-        "date": "2026-09-02",
-        "exact": true
+        "v": "H2UMDLc_E8Y",
+        "title": "Sam Altman Interview, OpenAI Developer Day | Bloomberg The Close",
+        "length": "1:39:28",
+        "date": "2026-09-29",
+        "exact": false
       },
       {
-        "v": "0nOvAeSmccM",
-        "title": "Inside T. Rowe Price: Markets, AI & the Future of Investing | The Close 8/31/2026",
-        "length": "1:31:23",
-        "date": "2026-08-31",
-        "exact": true
+        "v": "j2EH7eZ8RkE",
+        "title": "Stocks & Bonds Sell Off as Oil Drives Yields Higher",
+        "length": "1:31:50",
+        "date": "2026-09-28",
+        "exact": false
       },
       {
-        "v": "knpmSP45F7w",
-        "title": "Warsh Says Inflation Isn't Slowing | The Close 8/28/2026",
-        "length": "1:40:21",
-        "date": "2026-08-28",
-        "exact": true
+        "v": "knas7wTqh_c",
+        "title": "Markets Rise as AI, Oil & Treasury Yields Drive the Week",
+        "length": "1:30:20",
+        "date": "2026-09-25",
+        "exact": false
       },
       {
-        "v": "kndKxu6q-Vg",
-        "title": "Nvidia Rally, AI Trade & Jackson Hole Preview | The Close 8/27/2026",
-        "length": "1:29:35",
-        "date": "2026-08-27",
-        "exact": true
+        "v": "N85Mb_zUpgg",
+        "title": "Oil, Treasury Yields & Inflation Pressure Markets",
+        "length": "1:34:42",
+        "date": "2026-09-24",
+        "exact": false
       },
       {
-        "v": "HHke5DrUk7A",
-        "title": "Nvidia Results Impress, But Shares Fall | The Close 8/26/2026",
-        "length": "1:42:25",
-        "date": "2026-08-26",
-        "exact": true
+        "v": "6ltNSqZBQAM",
+        "title": "Live From Georgetown: Financial Markets & Regulation",
+        "length": "1:30:57",
+        "date": "2026-09-23",
+        "exact": false
       },
       {
-        "v": "ca-0sqRRNuY",
-        "title": "Stocks Rise as Oil and Treasury Yields Fall | The Close 8/25/2026",
-        "length": "1:29:40",
-        "date": "2026-08-25",
-        "exact": true
+        "v": "I_OFvB0bDVU",
+        "title": "AI & Chip Stocks Lead Markets Higher",
+        "length": "1:29:10",
+        "date": "2026-09-22",
+        "exact": false
       },
       {
-        "v": "WqbFb-4lbZY",
-        "title": "Markets Slip as Nvidia, Yields & the Debasement Trade Loom | The Close 8/24/2026",
-        "length": "1:29:36",
-        "date": "2026-08-24",
-        "exact": true
+        "v": "FNRqz1lBB0Q",
+        "title": "Tech Stocks Rally as Oil & Treasury Yields Retreat",
+        "length": "1:29:05",
+        "date": "2026-09-21",
+        "exact": false
       }
     ],
     "moneystuff": [

@@ -21,17 +21,13 @@ if (!total) {
 let prev = null;
 try {
   prev = JSON.parse(await readFile(file, 'utf8'));
-  // Search results vary a little between runs, so merge with the previous list and keep the
-  // newest 8: the file then only changes when a newer episode appears.
   for (const [id, list] of Object.entries(data.shows)) {
     const old = prev.shows?.[id] || [];
-    const byId = new Map(old.map(e => [e.v, e]));
-    for (const e of list) {
-      // "2 weeks ago" drifts day by day: keep the first date estimate for known episodes.
-      if (!e.exact && byId.get(e.v)?.date) e.date = byId.get(e.v).date;
-      byId.set(e.v, e);
-    }
-    data.shows[id] = [...byId.values()].sort((a, b) => (b.date || '').localeCompare(a.date || '')).slice(0, 8);
+    if (!list.length) { data.shows[id] = old; continue; } // fetch failed: keep what we had
+    // "2 weeks ago" drifts day by day: keep the first date estimate for known episodes.
+    const known = new Map(old.map(e => [e.v, e]));
+    for (const e of list) if (!e.exact && known.get(e.v)?.date) e.date = known.get(e.v).date;
+    list.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   }
   if (!process.argv.includes('--probe') && prev.captionsProbe) data.captionsProbe = prev.captionsProbe;
 } catch { /* first run */ }
@@ -47,8 +43,10 @@ if (process.argv.includes('--probe')) {
 }
 
 // Nothing new: leave the file alone so the scheduled job doesn't commit a timestamp bump.
+// Only the top 5 count; search results wobble a little further down from run to run.
 const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
-if (prev && same(prev.shows, data.shows) && same(prev.captionsProbe?.ok, data.captionsProbe?.ok)) {
+const head = shows => Object.entries(shows || {}).map(([k, l]) => [k, l.slice(0, 5).map(e => `${e.v}@${e.date}`)]);
+if (prev && same(head(prev.shows), head(data.shows)) && same(prev.captionsProbe?.ok, data.captionsProbe?.ok)) {
   console.log('Episode list unchanged.');
   process.exit(0);
 }
