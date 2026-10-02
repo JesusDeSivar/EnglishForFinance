@@ -1,7 +1,14 @@
 {
-  "generatedAt": "2026-10-01T22:46:28.297Z",
+  "generatedAt": "2026-10-02T05:51:02.133Z",
   "shows": {
     "realyield": [
+      {
+        "v": "SuHYZdadRBk",
+        "title": "Global Bond Selloff, US Benchmark Slides, Paramount's Debt",
+        "length": "39:43",
+        "date": "2026-10-01",
+        "exact": false
+      },
       {
         "v": "dq-oE539kzU",
         "title": "Bond Yields Soar, Spiking Fed Rate Hike Bets",
@@ -49,13 +56,6 @@
         "title": "Inflation Softens, Nvidia's $500B Plan | Real Yield 8/13/2026",
         "length": "42:12",
         "date": "2026-08-13",
-        "exact": true
-      },
-      {
-        "v": "-KljLw6Kz2o",
-        "title": "Fed Silence & Tightening Spread Environment | Real Yield 8/6/2026",
-        "length": "42:26",
-        "date": "2026-08-06",
         "exact": true
       }
     ],
