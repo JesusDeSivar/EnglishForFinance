@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T22:20:25.495Z",
+  "generatedAt": "2026-10-03T05:26:58.169Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "oXzUHoz3vI4",
+        "title": "Stocks Rise As Jobs Report Eases Fed-Hike Worries",
+        "length": "1:33:31",
+        "date": "2026-10-02",
+        "exact": false
+      },
+      {
         "v": "o4mJAveb12w",
         "title": "Nike Earnings Disappoint as China Sales Lag",
         "length": "1:32:21",
@@ -107,13 +114,6 @@
         "title": "Live From Georgetown: Financial Markets & Regulation",
         "length": "1:30:57",
         "date": "2026-09-23",
-        "exact": false
-      },
-      {
-        "v": "I_OFvB0bDVU",
-        "title": "AI & Chip Stocks Lead Markets Higher",
-        "length": "1:29:10",
-        "date": "2026-09-22",
         "exact": false
       }
     ],
