@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T06:10:10.286Z",
+  "generatedAt": "2026-10-07T23:11:07.618Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "5rAV6lEbMCM",
+        "title": "Stocks Retreat From Records as Oil & Yields Stay Elevated",
+        "length": "1:29:39",
+        "date": "2026-10-07",
+        "exact": false
+      },
+      {
         "v": "DdDdm3BnubY",
         "title": "S&P 500 Hits Record High as Big Tech Leads",
         "length": "1:29:14",
@@ -107,13 +114,6 @@
         "title": "Stocks & Bonds Sell Off as Oil Drives Yields Higher",
         "length": "1:31:50",
         "date": "2026-09-28",
-        "exact": false
-      },
-      {
-        "v": "knas7wTqh_c",
-        "title": "Markets Rise as AI, Oil & Treasury Yields Drive the Week",
-        "length": "1:30:20",
-        "date": "2026-09-25",
         "exact": false
       }
     ],
