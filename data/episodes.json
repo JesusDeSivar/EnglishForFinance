@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T00:08:58.184Z",
+  "generatedAt": "2026-10-07T06:10:10.286Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "DdDdm3BnubY",
+        "title": "S&P 500 Hits Record High as Big Tech Leads",
+        "length": "1:29:14",
+        "date": "2026-10-06",
+        "exact": false
+      },
+      {
         "v": "90Cp8S5NeS0",
         "title": "Treasury Yields Hit Highest Level Since 2002",
         "length": "1:30:02",
@@ -107,13 +114,6 @@
         "title": "Markets Rise as AI, Oil & Treasury Yields Drive the Week",
         "length": "1:30:20",
         "date": "2026-09-25",
-        "exact": false
-      },
-      {
-        "v": "N85Mb_zUpgg",
-        "title": "Oil, Treasury Yields & Inflation Pressure Markets",
-        "length": "1:34:42",
-        "date": "2026-09-24",
         "exact": false
       }
     ],
