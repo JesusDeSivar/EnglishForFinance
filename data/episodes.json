@@ -1,7 +1,14 @@
 {
-  "generatedAt": "2026-10-07T23:11:07.618Z",
+  "generatedAt": "2026-10-08T23:26:20.310Z",
   "shows": {
     "realyield": [
+      {
+        "v": "MUjZPuDYXUs",
+        "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
+        "length": "41:38",
+        "date": "2026-10-08",
+        "exact": false
+      },
       {
         "v": "SuHYZdadRBk",
         "title": "Global Bond Selloff, US Benchmark Slides, Paramount's Debt",
@@ -50,16 +57,16 @@
         "length": "44:24",
         "date": "2026-08-20",
         "exact": true
-      },
-      {
-        "v": "zCgg7u36IBw",
-        "title": "Inflation Softens, Nvidia's $500B Plan | Real Yield 8/13/2026",
-        "length": "42:12",
-        "date": "2026-08-13",
-        "exact": true
       }
     ],
     "theclose": [
+      {
+        "v": "2Eij4hoV-Wg",
+        "title": "AI Trade Worries, Oil & Treasury Yields Pressure Markets",
+        "length": "1:33:32",
+        "date": "2026-10-08",
+        "exact": false
+      },
       {
         "v": "5rAV6lEbMCM",
         "title": "Stocks Retreat From Records as Oil & Yields Stay Elevated",
@@ -107,13 +114,6 @@
         "title": "Sam Altman Interview, OpenAI Developer Day | Bloomberg The Close",
         "length": "1:39:28",
         "date": "2026-09-29",
-        "exact": false
-      },
-      {
-        "v": "j2EH7eZ8RkE",
-        "title": "Stocks & Bonds Sell Off as Oil Drives Yields Higher",
-        "length": "1:31:50",
-        "date": "2026-09-28",
         "exact": false
       }
     ],
