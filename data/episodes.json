@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T23:26:20.310Z",
+  "generatedAt": "2026-10-09T22:44:16.551Z",
   "shows": {
     "realyield": [
       {
@@ -61,13 +61,6 @@
     ],
     "theclose": [
       {
-        "v": "2Eij4hoV-Wg",
-        "title": "AI Trade Worries, Oil & Treasury Yields Pressure Markets",
-        "length": "1:33:32",
-        "date": "2026-10-08",
-        "exact": false
-      },
-      {
         "v": "5rAV6lEbMCM",
         "title": "Stocks Retreat From Records as Oil & Yields Stay Elevated",
         "length": "1:29:39",
@@ -115,9 +108,23 @@
         "length": "1:39:28",
         "date": "2026-09-29",
         "exact": false
+      },
+      {
+        "v": "j2EH7eZ8RkE",
+        "title": "Stocks & Bonds Sell Off as Oil Drives Yields Higher",
+        "length": "1:31:50",
+        "date": "2026-09-28",
+        "exact": false
       }
     ],
     "moneystuff": [
+      {
+        "v": "W-vFLSUVv3c",
+        "title": "Jeremy Maletz | Money Stuff: The Podcast",
+        "length": "54:25",
+        "date": "2026-10-09",
+        "exact": false
+      },
       {
         "v": "9RAw5LE25l8",
         "title": "Reintegration With the Default World | Money Stuff: The Podcast",
@@ -165,13 +172,6 @@
         "title": "No Kiddie Pool | Money Stuff: The Podcast",
         "length": "26:54",
         "date": "2026-08-31",
-        "exact": false
-      },
-      {
-        "v": "6SjmgmgTOXM",
-        "title": "Worried Noises | Money Stuff: The Podcast",
-        "length": "29:08",
-        "date": "2026-08-01",
         "exact": false
       }
     ]
