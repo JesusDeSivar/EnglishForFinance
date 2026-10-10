@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T22:44:16.551Z",
+  "generatedAt": "2026-10-10T06:01:48.634Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "guQanBIWEWY",
+        "title": "Trump Says Putin to Supply US With Diesel",
+        "length": "1:31:24",
+        "date": "2026-10-09",
+        "exact": false
+      },
+      {
         "v": "5rAV6lEbMCM",
         "title": "Stocks Retreat From Records as Oil & Yields Stay Elevated",
         "length": "1:29:39",
@@ -107,13 +114,6 @@
         "title": "Sam Altman Interview, OpenAI Developer Day | Bloomberg The Close",
         "length": "1:39:28",
         "date": "2026-09-29",
-        "exact": false
-      },
-      {
-        "v": "j2EH7eZ8RkE",
-        "title": "Stocks & Bonds Sell Off as Oil Drives Yields Higher",
-        "length": "1:31:50",
-        "date": "2026-09-28",
         "exact": false
       }
     ],
