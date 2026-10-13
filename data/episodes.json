@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T06:01:48.634Z",
+  "generatedAt": "2026-10-13T00:49:18.246Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "lieuaiYuoxU",
+        "title": "Earnings Season, AI & Oil Prices in Focus",
+        "length": "1:29:19",
+        "date": "2026-10-12",
+        "exact": false
+      },
+      {
         "v": "guQanBIWEWY",
         "title": "Trump Says Putin to Supply US With Diesel",
         "length": "1:31:24",
@@ -107,13 +114,6 @@
         "title": "September Market Recap & Micron’s AI Boom",
         "length": "1:31:40",
         "date": "2026-09-30",
-        "exact": false
-      },
-      {
-        "v": "H2UMDLc_E8Y",
-        "title": "Sam Altman Interview, OpenAI Developer Day | Bloomberg The Close",
-        "length": "1:39:28",
-        "date": "2026-09-29",
         "exact": false
       }
     ],
