@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T22:54:31.099Z",
+  "generatedAt": "2026-10-15T04:51:31.369Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "Y4lMuvapTik",
+        "title": "Stocks Slide as Hot Inflation & AI Credit Fears Hit Markets",
+        "length": "1:33:08",
+        "date": "2026-10-14",
+        "exact": false
+      },
+      {
         "v": "ZgzCFKQxfMk",
         "title": "Bank Earnings, AI & the Health of the Economy",
         "length": "1:31:36",
@@ -107,13 +114,6 @@
         "title": "Stocks Rise As Jobs Report Eases Fed-Hike Worries",
         "length": "1:33:31",
         "date": "2026-10-02",
-        "exact": false
-      },
-      {
-        "v": "o4mJAveb12w",
-        "title": "Nike Earnings Disappoint as China Sales Lag",
-        "length": "1:32:21",
-        "date": "2026-10-01",
         "exact": false
       }
     ],
