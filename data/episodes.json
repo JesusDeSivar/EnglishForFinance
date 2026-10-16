@@ -1,7 +1,14 @@
 {
-  "generatedAt": "2026-10-15T04:51:31.369Z",
+  "generatedAt": "2026-10-16T04:41:52.316Z",
   "shows": {
     "realyield": [
+      {
+        "v": "WJ0RVoLofJ4",
+        "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
+        "length": "41:19",
+        "date": "2026-10-15",
+        "exact": false
+      },
       {
         "v": "MUjZPuDYXUs",
         "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
@@ -50,16 +57,16 @@
         "length": "44:17",
         "date": "2026-08-27",
         "exact": true
-      },
-      {
-        "v": "5tXMlxjGsiI",
-        "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
-        "length": "44:24",
-        "date": "2026-08-20",
-        "exact": true
       }
     ],
     "theclose": [
+      {
+        "v": "GEMw6ExKA_Y",
+        "title": "Stocks Rotate as Tech & Chip Shares Slide",
+        "length": "1:31:53",
+        "date": "2026-10-15",
+        "exact": false
+      },
       {
         "v": "Y4lMuvapTik",
         "title": "Stocks Slide as Hot Inflation & AI Credit Fears Hit Markets",
@@ -107,13 +114,6 @@
         "title": "Treasury Yields Hit Highest Level Since 2002",
         "length": "1:30:02",
         "date": "2026-10-05",
-        "exact": false
-      },
-      {
-        "v": "oXzUHoz3vI4",
-        "title": "Stocks Rise As Jobs Report Eases Fed-Hike Worries",
-        "length": "1:33:31",
-        "date": "2026-10-02",
         "exact": false
       }
     ],
