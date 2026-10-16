@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T04:41:52.316Z",
+  "generatedAt": "2026-10-16T16:46:25.264Z",
   "shows": {
     "realyield": [
       {
@@ -119,6 +119,13 @@
     ],
     "moneystuff": [
       {
+        "v": "DW96xfD_TBo",
+        "title": "Release Me From This Demon | Money Stuff: The Podcast",
+        "length": "37:58",
+        "date": "2026-10-16",
+        "exact": false
+      },
+      {
         "v": "W-vFLSUVv3c",
         "title": "Jeremy Maletz | Money Stuff: The Podcast",
         "length": "54:25",
@@ -164,13 +171,6 @@
         "v": "FjnDBym4_qo",
         "title": "Re-Run: Boaz Weinstein | Money Stuff: The Podcast",
         "length": "49:50",
-        "date": "2026-08-31",
-        "exact": false
-      },
-      {
-        "v": "wiHvl9SkKr4",
-        "title": "No Kiddie Pool | Money Stuff: The Podcast",
-        "length": "26:54",
         "date": "2026-08-31",
         "exact": false
       }
