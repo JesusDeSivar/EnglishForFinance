@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T16:46:25.264Z",
+  "generatedAt": "2026-10-17T04:39:10.979Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "vgyc2Au0dbA",
+        "title": "AI Selloff, Oil & Treasury Yields Pressure Markets",
+        "length": "1:29:57",
+        "date": "2026-10-16",
+        "exact": false
+      },
+      {
         "v": "GEMw6ExKA_Y",
         "title": "Stocks Rotate as Tech & Chip Shares Slide",
         "length": "1:31:53",
@@ -107,13 +114,6 @@
         "title": "S&P 500 Hits Record High as Big Tech Leads",
         "length": "1:29:14",
         "date": "2026-10-06",
-        "exact": false
-      },
-      {
-        "v": "90Cp8S5NeS0",
-        "title": "Treasury Yields Hit Highest Level Since 2002",
-        "length": "1:30:02",
-        "date": "2026-10-05",
         "exact": false
       }
     ],
