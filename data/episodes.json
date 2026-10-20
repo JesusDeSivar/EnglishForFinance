@@ -1,14 +1,7 @@
 {
-  "generatedAt": "2026-10-20T11:49:47.007Z",
+  "generatedAt": "2026-10-20T17:18:45.118Z",
   "shows": {
     "realyield": [
-      {
-        "v": "WJ0RVoLofJ4",
-        "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
-        "length": "41:19",
-        "date": "2026-10-15",
-        "exact": false
-      },
       {
         "v": "MUjZPuDYXUs",
         "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
@@ -56,6 +49,13 @@
         "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
         "length": "44:24",
         "date": "2026-08-20",
+        "exact": true
+      },
+      {
+        "v": "zCgg7u36IBw",
+        "title": "Inflation Softens, Nvidia's $500B Plan | Real Yield 8/13/2026",
+        "length": "42:12",
+        "date": "2026-08-13",
         "exact": true
       }
     ],
