@@ -1,12 +1,26 @@
 {
-  "generatedAt": "2026-10-20T17:18:45.118Z",
+  "generatedAt": "2026-10-21T04:59:46.532Z",
   "shows": {
     "realyield": [
+      {
+        "v": "WJ0RVoLofJ4",
+        "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
+        "length": "41:19",
+        "date": "2026-10-16",
+        "exact": false
+      },
       {
         "v": "MUjZPuDYXUs",
         "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
         "length": "41:38",
         "date": "2026-10-08",
+        "exact": false
+      },
+      {
+        "v": "SuHYZdadRBk",
+        "title": "Global Bond Selloff, US Benchmark Slides, Paramount's Debt",
+        "length": "39:43",
+        "date": "2026-10-07",
         "exact": false
       },
       {
@@ -43,23 +57,16 @@
         "length": "44:17",
         "date": "2026-08-27",
         "exact": true
-      },
-      {
-        "v": "5tXMlxjGsiI",
-        "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
-        "length": "44:24",
-        "date": "2026-08-20",
-        "exact": true
-      },
-      {
-        "v": "zCgg7u36IBw",
-        "title": "Inflation Softens, Nvidia's $500B Plan | Real Yield 8/13/2026",
-        "length": "42:12",
-        "date": "2026-08-13",
-        "exact": true
       }
     ],
     "theclose": [
+      {
+        "v": "V_R1IXRTKWA",
+        "title": "Netflix Growth Slows as Streaming Competition Intensifies",
+        "length": "1:37:52",
+        "date": "2026-10-20",
+        "exact": false
+      },
       {
         "v": "3AR5dskKi98",
         "title": "Tech Stocks Rebound as Investors Reassess the AI Trade",
@@ -107,13 +114,6 @@
         "title": "Trump Says Putin to Supply US With Diesel",
         "length": "1:31:24",
         "date": "2026-10-09",
-        "exact": false
-      },
-      {
-        "v": "5rAV6lEbMCM",
-        "title": "Stocks Retreat From Records as Oil & Yields Stay Elevated",
-        "length": "1:29:39",
-        "date": "2026-10-07",
         "exact": false
       }
     ],
