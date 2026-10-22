@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T04:59:46.532Z",
+  "generatedAt": "2026-10-22T05:01:33.851Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "T8brA63WlgU",
+        "title": "Tesla, IBM & Meta Report Earnings as AI Takes Center Stage",
+        "length": "1:39:56",
+        "date": "2026-10-21",
+        "exact": false
+      },
+      {
         "v": "V_R1IXRTKWA",
         "title": "Netflix Growth Slows as Streaming Competition Intensifies",
         "length": "1:37:52",
@@ -107,13 +114,6 @@
         "title": "Earnings Season, AI & Oil Prices in Focus",
         "length": "1:29:19",
         "date": "2026-10-12",
-        "exact": false
-      },
-      {
-        "v": "guQanBIWEWY",
-        "title": "Trump Says Putin to Supply US With Diesel",
-        "length": "1:31:24",
-        "date": "2026-10-09",
         "exact": false
       }
     ],
