@@ -1,14 +1,7 @@
 {
-  "generatedAt": "2026-10-24T16:03:46.826Z",
+  "generatedAt": "2026-10-24T20:57:41.222Z",
   "shows": {
     "realyield": [
-      {
-        "v": "9aQ4yuCbDTo",
-        "title": "AI Spending Woes, Investors Seek Havens, France Debt Crisis",
-        "length": "41:57",
-        "date": "2026-10-23",
-        "exact": false
-      },
       {
         "v": "WJ0RVoLofJ4",
         "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
@@ -56,6 +49,13 @@
         "title": "Awaiting Warsh, AI 'Bust,' High Ed Fear | Real Yield 8/27/2026",
         "length": "44:17",
         "date": "2026-08-27",
+        "exact": true
+      },
+      {
+        "v": "5tXMlxjGsiI",
+        "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
+        "length": "44:24",
+        "date": "2026-08-20",
         "exact": true
       }
     ],
