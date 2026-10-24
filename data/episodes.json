@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T21:30:32.270Z",
+  "generatedAt": "2026-10-24T04:47:12.854Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "iYmoXYDv6AY",
+        "title": "AI Jitters, Oil & Big Tech",
+        "length": "1:27:53",
+        "date": "2026-10-23",
+        "exact": false
+      },
+      {
         "v": "IvzjnLQlM1M",
         "title": "Tech Selloff Deepens as AI Spending Worries Investors",
         "length": "1:30:12",
@@ -107,13 +114,6 @@
         "title": "Stocks Slide as Hot Inflation & AI Credit Fears Hit Markets",
         "length": "1:33:08",
         "date": "2026-10-14",
-        "exact": false
-      },
-      {
-        "v": "ZgzCFKQxfMk",
-        "title": "Bank Earnings, AI & the Health of the Economy",
-        "length": "1:31:36",
-        "date": "2026-10-13",
         "exact": false
       }
     ],
