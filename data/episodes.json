@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T11:44:41.992Z",
+  "generatedAt": "2026-10-25T16:33:23.736Z",
   "shows": {
     "realyield": [
       {
@@ -21,6 +21,13 @@
         "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
         "length": "41:38",
         "date": "2026-10-08",
+        "exact": false
+      },
+      {
+        "v": "SuHYZdadRBk",
+        "title": "Global Bond Selloff, US Benchmark Slides, Paramount's Debt",
+        "length": "39:43",
+        "date": "2026-10-04",
         "exact": false
       },
       {
@@ -49,13 +56,6 @@
         "title": "Global Bond Yields Rise, Waller Speaks Out | Real Yield 9/3/2026",
         "length": "43:04",
         "date": "2026-09-03",
-        "exact": true
-      },
-      {
-        "v": "uOKfGB2yN2E",
-        "title": "Awaiting Warsh, AI 'Bust,' High Ed Fear | Real Yield 8/27/2026",
-        "length": "44:17",
-        "date": "2026-08-27",
         "exact": true
       }
     ],
