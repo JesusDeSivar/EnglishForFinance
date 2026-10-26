@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T13:17:32.067Z",
+  "generatedAt": "2026-10-26T22:45:24.185Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "lhYtPnNUk4Y",
+        "title": "Anthropic IPO, AI Financing & Markets Rally",
+        "length": "1:30:05",
+        "date": "2026-10-26",
+        "exact": false
+      },
+      {
         "v": "iYmoXYDv6AY",
         "title": "AI Jitters, Oil & Big Tech",
         "length": "1:27:53",
@@ -107,13 +114,6 @@
         "title": "Stocks Rotate as Tech & Chip Shares Slide",
         "length": "1:31:53",
         "date": "2026-10-15",
-        "exact": false
-      },
-      {
-        "v": "Y4lMuvapTik",
-        "title": "Stocks Slide as Hot Inflation & AI Credit Fears Hit Markets",
-        "length": "1:33:08",
-        "date": "2026-10-14",
         "exact": false
       }
     ],
