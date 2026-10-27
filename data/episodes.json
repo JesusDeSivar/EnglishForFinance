@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T12:25:11.461Z",
+  "generatedAt": "2026-10-27T22:24:13.648Z",
   "shows": {
     "realyield": [
       {
@@ -14,13 +14,6 @@
         "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
         "length": "41:38",
         "date": "2026-10-08",
-        "exact": false
-      },
-      {
-        "v": "SuHYZdadRBk",
-        "title": "Global Bond Selloff, US Benchmark Slides, Paramount's Debt",
-        "length": "39:43",
-        "date": "2026-10-06",
         "exact": false
       },
       {
@@ -57,9 +50,23 @@
         "length": "44:17",
         "date": "2026-08-27",
         "exact": true
+      },
+      {
+        "v": "5tXMlxjGsiI",
+        "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
+        "length": "44:24",
+        "date": "2026-08-20",
+        "exact": true
       }
     ],
     "theclose": [
+      {
+        "v": "WQSMt_9R9Wg",
+        "title": "Tech Rally, Fed Decision & Big Tech Earnings Ahead",
+        "length": "1:36:12",
+        "date": "2026-10-27",
+        "exact": false
+      },
       {
         "v": "lhYtPnNUk4Y",
         "title": "Anthropic IPO, AI Financing & Markets Rally",
@@ -107,13 +114,6 @@
         "title": "AI Selloff, Oil & Treasury Yields Pressure Markets",
         "length": "1:29:57",
         "date": "2026-10-16",
-        "exact": false
-      },
-      {
-        "v": "GEMw6ExKA_Y",
-        "title": "Stocks Rotate as Tech & Chip Shares Slide",
-        "length": "1:31:53",
-        "date": "2026-10-15",
         "exact": false
       }
     ],
