@@ -1,7 +1,14 @@
 {
-  "generatedAt": "2026-10-27T22:24:13.648Z",
+  "generatedAt": "2026-10-28T22:42:00.126Z",
   "shows": {
     "realyield": [
+      {
+        "v": "9aQ4yuCbDTo",
+        "title": "AI Spending Woes, Investors Seek Havens, France Debt Crisis",
+        "length": "41:57",
+        "date": "2026-10-22",
+        "exact": false
+      },
       {
         "v": "WJ0RVoLofJ4",
         "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
@@ -50,16 +57,16 @@
         "length": "44:17",
         "date": "2026-08-27",
         "exact": true
-      },
-      {
-        "v": "5tXMlxjGsiI",
-        "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
-        "length": "44:24",
-        "date": "2026-08-20",
-        "exact": true
       }
     ],
     "theclose": [
+      {
+        "v": "0K6cvunpfyg",
+        "title": "Fed Holds Rates With a Hawkish Edge",
+        "length": "1:19:39",
+        "date": "2026-10-28",
+        "exact": false
+      },
       {
         "v": "WQSMt_9R9Wg",
         "title": "Tech Rally, Fed Decision & Big Tech Earnings Ahead",
@@ -107,13 +114,6 @@
         "title": "Tech Stocks Rebound as Investors Reassess the AI Trade",
         "length": "1:30:12",
         "date": "2026-10-19",
-        "exact": false
-      },
-      {
-        "v": "vgyc2Au0dbA",
-        "title": "AI Selloff, Oil & Treasury Yields Pressure Markets",
-        "length": "1:29:57",
-        "date": "2026-10-16",
         "exact": false
       }
     ],
