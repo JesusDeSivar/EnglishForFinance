@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-29T13:18:18.236Z",
+  "generatedAt": "2026-10-29T22:50:52.847Z",
   "shows": {
     "realyield": [
       {
-        "v": "WJ0RVoLofJ4",
-        "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
-        "length": "41:19",
-        "date": "2026-10-16",
+        "v": "9aQ4yuCbDTo",
+        "title": "AI Spending Woes, Investors Seek Havens, France Debt Crisis",
+        "length": "41:57",
+        "date": "2026-10-22",
         "exact": false
       },
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "EDWwcvZBFRQ",
+        "title": "Tech Stocks Slide as Markets Rotate Into Small Caps",
+        "length": "1:37:32",
+        "date": "2026-10-29",
+        "exact": false
+      },
+      {
         "v": "0K6cvunpfyg",
         "title": "Fed Holds Rates With a Hawkish Edge",
         "length": "1:19:39",
@@ -107,13 +114,6 @@
         "title": "Netflix Growth Slows as Streaming Competition Intensifies",
         "length": "1:37:52",
         "date": "2026-10-20",
-        "exact": false
-      },
-      {
-        "v": "3AR5dskKi98",
-        "title": "Tech Stocks Rebound as Investors Reassess the AI Trade",
-        "length": "1:30:12",
-        "date": "2026-10-19",
         "exact": false
       }
     ],
