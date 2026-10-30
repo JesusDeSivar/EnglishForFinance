@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T06:00:00.665Z",
+  "generatedAt": "2026-10-30T22:28:24.638Z",
   "shows": {
     "realyield": [
       {
@@ -21,6 +21,13 @@
         "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
         "length": "41:38",
         "date": "2026-10-08",
+        "exact": false
+      },
+      {
+        "v": "SuHYZdadRBk",
+        "title": "Global Bond Selloff, US Benchmark Slides, Paramount's Debt",
+        "length": "39:43",
+        "date": "2026-10-02",
         "exact": false
       },
       {
@@ -50,16 +57,16 @@
         "length": "43:04",
         "date": "2026-09-03",
         "exact": true
-      },
-      {
-        "v": "uOKfGB2yN2E",
-        "title": "Awaiting Warsh, AI 'Bust,' High Ed Fear | Real Yield 8/27/2026",
-        "length": "44:17",
-        "date": "2026-08-27",
-        "exact": true
       }
     ],
     "theclose": [
+      {
+        "v": "KSuMdi7WtNk",
+        "title": "Tech Selloff Deepens as AI & Bitcoin Slide",
+        "length": "1:30:20",
+        "date": "2026-10-30",
+        "exact": false
+      },
       {
         "v": "EDWwcvZBFRQ",
         "title": "Tech Stocks Slide as Markets Rotate Into Small Caps",
@@ -108,16 +115,16 @@
         "length": "1:39:56",
         "date": "2026-10-21",
         "exact": false
-      },
-      {
-        "v": "V_R1IXRTKWA",
-        "title": "Netflix Growth Slows as Streaming Competition Intensifies",
-        "length": "1:37:52",
-        "date": "2026-10-20",
-        "exact": false
       }
     ],
     "moneystuff": [
+      {
+        "v": "Ln0BcksibKE",
+        "title": "Artisanal Human Money Stuff Podcast | Money Stuff: The Podcast",
+        "length": "35:48",
+        "date": "2026-10-30",
+        "exact": false
+      },
       {
         "v": "2WBFgxsNzIg",
         "title": "Tice Brown | Money Stuff: The Podcast",
@@ -165,13 +172,6 @@
         "title": "What's the Concern? | Money Stuff: The Podcast",
         "length": "40:40",
         "date": "2026-09-16",
-        "exact": false
-      },
-      {
-        "v": "DPDV5mncTOE",
-        "title": "Learn More Gooder | Money Stuff: The Podcast",
-        "length": "37:30",
-        "date": "2026-09-09",
         "exact": false
       }
     ]
