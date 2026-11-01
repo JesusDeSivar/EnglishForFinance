@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T06:23:14.837Z",
+  "generatedAt": "2026-11-01T17:58:20.879Z",
   "shows": {
     "realyield": [
       {
@@ -14,13 +14,6 @@
         "title": "AI Spending Woes, Investors Seek Havens, France Debt Crisis",
         "length": "41:57",
         "date": "2026-10-22",
-        "exact": false
-      },
-      {
-        "v": "WJ0RVoLofJ4",
-        "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
-        "length": "41:19",
-        "date": "2026-10-16",
         "exact": false
       },
       {
@@ -56,6 +49,13 @@
         "title": "US Yields Surge, Calling Bessent's Bluff | Real Yield 9/10/2026",
         "length": "41:20",
         "date": "2026-09-10",
+        "exact": true
+      },
+      {
+        "v": "SGqvvwZsaH8",
+        "title": "Global Bond Yields Rise, Waller Speaks Out | Real Yield 9/3/2026",
+        "length": "43:04",
+        "date": "2026-09-03",
         "exact": true
       }
     ],
