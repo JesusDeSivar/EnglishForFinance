@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T21:43:23.771Z",
+  "generatedAt": "2026-11-01T06:23:14.837Z",
   "shows": {
     "realyield": [
       {
@@ -31,6 +31,13 @@
         "exact": false
       },
       {
+        "v": "SuHYZdadRBk",
+        "title": "Global Bond Selloff, US Benchmark Slides, Paramount's Debt",
+        "length": "39:43",
+        "date": "2026-10-04",
+        "exact": false
+      },
+      {
         "v": "dq-oE539kzU",
         "title": "Bond Yields Soar, Spiking Fed Rate Hike Bets",
         "length": "36:36",
@@ -49,13 +56,6 @@
         "title": "US Yields Surge, Calling Bessent's Bluff | Real Yield 9/10/2026",
         "length": "41:20",
         "date": "2026-09-10",
-        "exact": true
-      },
-      {
-        "v": "SGqvvwZsaH8",
-        "title": "Global Bond Yields Rise, Waller Speaks Out | Real Yield 9/3/2026",
-        "length": "43:04",
-        "date": "2026-09-03",
         "exact": true
       }
     ],
