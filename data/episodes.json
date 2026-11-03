@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T21:47:27.644Z",
+  "generatedAt": "2026-11-03T06:58:32.174Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "4nRyHk-v4yw",
+        "title": "Michigan Midterms, Apple Earnings & the Tech Selloff",
+        "length": "1:33:06",
+        "date": "2026-11-02",
+        "exact": false
+      },
+      {
         "v": "KSuMdi7WtNk",
         "title": "Tech Selloff Deepens as AI & Bitcoin Slide",
         "length": "1:30:20",
@@ -107,13 +114,6 @@
         "title": "Tech Selloff Deepens as AI Spending Worries Investors",
         "length": "1:30:12",
         "date": "2026-10-22",
-        "exact": false
-      },
-      {
-        "v": "T8brA63WlgU",
-        "title": "Tesla, IBM & Meta Report Earnings as AI Takes Center Stage",
-        "length": "1:39:56",
-        "date": "2026-10-21",
         "exact": false
       }
     ],
