@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T19:36:40.121Z",
+  "generatedAt": "2026-11-04T06:40:17.733Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "mit3AVbrBXk",
+        "title": "Midterms, Affordability & Markets",
+        "length": "1:29:14",
+        "date": "2026-11-03",
+        "exact": false
+      },
+      {
         "v": "4nRyHk-v4yw",
         "title": "Michigan Midterms, Apple Earnings & the Tech Selloff",
         "length": "1:33:06",
@@ -107,13 +114,6 @@
         "title": "AI Jitters, Oil & Big Tech",
         "length": "1:27:53",
         "date": "2026-10-23",
-        "exact": false
-      },
-      {
-        "v": "IvzjnLQlM1M",
-        "title": "Tech Selloff Deepens as AI Spending Worries Investors",
-        "length": "1:30:12",
-        "date": "2026-10-22",
         "exact": false
       }
     ],
