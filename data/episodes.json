@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T06:58:51.876Z",
+  "generatedAt": "2026-11-06T19:31:26.358Z",
   "shows": {
     "realyield": [
       {
@@ -119,6 +119,13 @@
     ],
     "moneystuff": [
       {
+        "v": "op3a3CDriOs",
+        "title": "Friend Acquisition Rate | Money Stuff: The Podcast",
+        "length": "44:54",
+        "date": "2026-11-06",
+        "exact": false
+      },
+      {
         "v": "Ln0BcksibKE",
         "title": "Artisanal Human Money Stuff Podcast | Money Stuff: The Podcast",
         "length": "35:48",
@@ -165,13 +172,6 @@
         "title": "Trying to Save the World Is No Excuse | Money Stuff: The Podcast",
         "length": "38:25",
         "date": "2026-09-19",
-        "exact": false
-      },
-      {
-        "v": "U5O5HjzH9dg",
-        "title": "What's the Concern? | Money Stuff: The Podcast",
-        "length": "40:40",
-        "date": "2026-09-16",
         "exact": false
       }
     ]
