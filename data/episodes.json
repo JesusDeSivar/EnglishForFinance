@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T20:05:32.002Z",
+  "generatedAt": "2026-11-06T06:58:51.876Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "F52GZaYynQE",
+        "title": "Market Selloff, Volatility & Post-Midterm Repositioning",
+        "length": "1:42:18",
+        "date": "2026-11-05",
+        "exact": false
+      },
+      {
         "v": "-Jie5FdfJfw",
         "title": "Democratic Sweep, Markets Rally & AI Stocks Slide",
         "length": "1:33:24",
@@ -107,13 +114,6 @@
         "title": "Tech Rally, Fed Decision & Big Tech Earnings Ahead",
         "length": "1:36:12",
         "date": "2026-10-27",
-        "exact": false
-      },
-      {
-        "v": "lhYtPnNUk4Y",
-        "title": "Anthropic IPO, AI Financing & Markets Rally",
-        "length": "1:30:05",
-        "date": "2026-10-26",
         "exact": false
       }
     ],
