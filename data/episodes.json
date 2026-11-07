@@ -1,7 +1,14 @@
 {
-  "generatedAt": "2026-11-06T19:31:26.358Z",
+  "generatedAt": "2026-11-07T06:12:00.709Z",
   "shows": {
     "realyield": [
+      {
+        "v": "fNfpiLSJ0Lk",
+        "title": "AI Fears Rattle Wall St., Safe Havens",
+        "length": "42:42",
+        "date": "2026-11-06",
+        "exact": false
+      },
       {
         "v": "A1BPJWX1Cso",
         "title": "Lagarde's Exit, Safe Havens, Record Credit Sales",
@@ -50,16 +57,16 @@
         "length": "43:04",
         "date": "2026-09-03",
         "exact": true
-      },
-      {
-        "v": "uOKfGB2yN2E",
-        "title": "Awaiting Warsh, AI 'Bust,' High Ed Fear | Real Yield 8/27/2026",
-        "length": "44:17",
-        "date": "2026-08-27",
-        "exact": true
       }
     ],
     "theclose": [
+      {
+        "v": "HTuMh12kgUA",
+        "title": "Markets Rebound After Historic Tech Selloff",
+        "length": "1:32:31",
+        "date": "2026-11-06",
+        "exact": false
+      },
       {
         "v": "F52GZaYynQE",
         "title": "Market Selloff, Volatility & Post-Midterm Repositioning",
@@ -107,13 +114,6 @@
         "title": "Fed Holds Rates With a Hawkish Edge",
         "length": "1:19:39",
         "date": "2026-10-28",
-        "exact": false
-      },
-      {
-        "v": "WQSMt_9R9Wg",
-        "title": "Tech Rally, Fed Decision & Big Tech Earnings Ahead",
-        "length": "1:36:12",
-        "date": "2026-10-27",
         "exact": false
       }
     ],
