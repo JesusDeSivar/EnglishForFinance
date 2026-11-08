@@ -1,26 +1,19 @@
 {
-  "generatedAt": "2026-11-08T13:37:26.515Z",
+  "generatedAt": "2026-11-08T22:15:49.606Z",
   "shows": {
     "realyield": [
+      {
+        "v": "fNfpiLSJ0Lk",
+        "title": "AI Fears Rattle Wall St., Safe Havens",
+        "length": "42:42",
+        "date": "2026-11-05",
+        "exact": false
+      },
       {
         "v": "WJ0RVoLofJ4",
         "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
         "length": "41:19",
         "date": "2026-10-19",
-        "exact": false
-      },
-      {
-        "v": "MUjZPuDYXUs",
-        "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
-        "length": "41:38",
-        "date": "2026-10-08",
-        "exact": false
-      },
-      {
-        "v": "dq-oE539kzU",
-        "title": "Bond Yields Soar, Spiking Fed Rate Hike Bets",
-        "length": "36:36",
-        "date": "2026-09-25",
         "exact": false
       },
       {
@@ -56,6 +49,13 @@
         "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
         "length": "44:24",
         "date": "2026-08-20",
+        "exact": true
+      },
+      {
+        "v": "zCgg7u36IBw",
+        "title": "Inflation Softens, Nvidia's $500B Plan | Real Yield 8/13/2026",
+        "length": "42:12",
+        "date": "2026-08-13",
         "exact": true
       }
     ],
