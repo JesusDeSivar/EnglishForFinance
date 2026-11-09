@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:15:49.606Z",
+  "generatedAt": "2026-11-09T06:50:18.911Z",
   "shows": {
     "realyield": [
       {
@@ -10,10 +10,31 @@
         "exact": false
       },
       {
+        "v": "A1BPJWX1Cso",
+        "title": "Lagarde's Exit, Safe Havens, Record Credit Sales",
+        "length": "42:29",
+        "date": "2026-10-30",
+        "exact": false
+      },
+      {
         "v": "WJ0RVoLofJ4",
         "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
         "length": "41:19",
         "date": "2026-10-19",
+        "exact": false
+      },
+      {
+        "v": "MUjZPuDYXUs",
+        "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
+        "length": "41:38",
+        "date": "2026-10-10",
+        "exact": false
+      },
+      {
+        "v": "dq-oE539kzU",
+        "title": "Bond Yields Soar, Spiking Fed Rate Hike Bets",
+        "length": "36:36",
+        "date": "2026-10-10",
         "exact": false
       },
       {
@@ -35,27 +56,6 @@
         "title": "Global Bond Yields Rise, Waller Speaks Out | Real Yield 9/3/2026",
         "length": "43:04",
         "date": "2026-09-03",
-        "exact": true
-      },
-      {
-        "v": "uOKfGB2yN2E",
-        "title": "Awaiting Warsh, AI 'Bust,' High Ed Fear | Real Yield 8/27/2026",
-        "length": "44:17",
-        "date": "2026-08-27",
-        "exact": true
-      },
-      {
-        "v": "5tXMlxjGsiI",
-        "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
-        "length": "44:24",
-        "date": "2026-08-20",
-        "exact": true
-      },
-      {
-        "v": "zCgg7u36IBw",
-        "title": "Inflation Softens, Nvidia's $500B Plan | Real Yield 8/13/2026",
-        "length": "42:12",
-        "date": "2026-08-13",
         "exact": true
       }
     ],
