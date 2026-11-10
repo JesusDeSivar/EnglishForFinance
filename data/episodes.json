@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T22:30:11.449Z",
+  "generatedAt": "2026-11-10T07:28:58.417Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "lgUH70gZKnk",
+        "title": "The Close 11/9/2026",
+        "length": "1:32:09",
+        "date": "2026-11-09",
+        "exact": true
+      },
+      {
         "v": "HTuMh12kgUA",
         "title": "Markets Rebound After Historic Tech Selloff",
         "length": "1:32:31",
@@ -107,13 +114,6 @@
         "title": "Tech Stocks Slide as Markets Rotate Into Small Caps",
         "length": "1:37:32",
         "date": "2026-10-29",
-        "exact": false
-      },
-      {
-        "v": "0K6cvunpfyg",
-        "title": "Fed Holds Rates With a Hawkish Edge",
-        "length": "1:19:39",
-        "date": "2026-10-28",
         "exact": false
       }
     ],
