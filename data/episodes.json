@@ -1,7 +1,14 @@
 {
-  "generatedAt": "2026-11-10T07:28:58.417Z",
+  "generatedAt": "2026-11-10T19:51:40.910Z",
   "shows": {
     "realyield": [
+      {
+        "v": "A1BPJWX1Cso",
+        "title": "Lagarde's Exit, Safe Havens, Record Credit Sales",
+        "length": "42:29",
+        "date": "2026-10-30",
+        "exact": false
+      },
       {
         "v": "WJ0RVoLofJ4",
         "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
@@ -50,19 +57,12 @@
         "length": "44:17",
         "date": "2026-08-27",
         "exact": true
-      },
-      {
-        "v": "5tXMlxjGsiI",
-        "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
-        "length": "44:24",
-        "date": "2026-08-20",
-        "exact": true
       }
     ],
     "theclose": [
       {
         "v": "lgUH70gZKnk",
-        "title": "The Close 11/9/2026",
+        "title": "Nvidia Spy Scandal Shocks Wall Street  The Close 11/9/2026",
         "length": "1:32:09",
         "date": "2026-11-09",
         "exact": true
