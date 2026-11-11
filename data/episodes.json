@@ -1,21 +1,7 @@
 {
-  "generatedAt": "2026-11-10T19:51:40.910Z",
+  "generatedAt": "2026-11-11T06:44:04.556Z",
   "shows": {
     "realyield": [
-      {
-        "v": "A1BPJWX1Cso",
-        "title": "Lagarde's Exit, Safe Havens, Record Credit Sales",
-        "length": "42:29",
-        "date": "2026-10-30",
-        "exact": false
-      },
-      {
-        "v": "WJ0RVoLofJ4",
-        "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
-        "length": "41:19",
-        "date": "2026-10-19",
-        "exact": false
-      },
       {
         "v": "MUjZPuDYXUs",
         "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
@@ -57,9 +43,30 @@
         "length": "44:17",
         "date": "2026-08-27",
         "exact": true
+      },
+      {
+        "v": "5tXMlxjGsiI",
+        "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
+        "length": "44:24",
+        "date": "2026-08-20",
+        "exact": true
+      },
+      {
+        "v": "zCgg7u36IBw",
+        "title": "Inflation Softens, Nvidia's $500B Plan | Real Yield 8/13/2026",
+        "length": "42:12",
+        "date": "2026-08-13",
+        "exact": true
       }
     ],
     "theclose": [
+      {
+        "v": "QkoSYxEZ7qs",
+        "title": "Hot Inflation, AI Selloff & Anthropic IPO",
+        "length": "1:29:50",
+        "date": "2026-11-10",
+        "exact": false
+      },
       {
         "v": "lgUH70gZKnk",
         "title": "Nvidia Spy Scandal Shocks Wall Street  The Close 11/9/2026",
@@ -107,13 +114,6 @@
         "title": "Tech Selloff Deepens as AI & Bitcoin Slide",
         "length": "1:30:20",
         "date": "2026-10-30",
-        "exact": false
-      },
-      {
-        "v": "EDWwcvZBFRQ",
-        "title": "Tech Stocks Slide as Markets Rotate Into Small Caps",
-        "length": "1:37:32",
-        "date": "2026-10-29",
         "exact": false
       }
     ],
