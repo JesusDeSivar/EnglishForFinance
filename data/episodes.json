@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T19:44:09.018Z",
+  "generatedAt": "2026-11-12T07:23:58.240Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "r05uI9Fnv6g",
+        "title": "AI Trade Roars Back, Anthropic IPO Outlook, Nordstrom Co-CEO on Going Private",
+        "length": "1:32:11",
+        "date": "2026-11-11",
+        "exact": false
+      },
+      {
         "v": "QkoSYxEZ7qs",
         "title": "Hot Inflation, AI Selloff & Anthropic IPO",
         "length": "1:29:50",
@@ -107,13 +114,6 @@
         "title": "Michigan Midterms, Apple Earnings & the Tech Selloff",
         "length": "1:33:06",
         "date": "2026-11-02",
-        "exact": false
-      },
-      {
-        "v": "KSuMdi7WtNk",
-        "title": "Tech Selloff Deepens as AI & Bitcoin Slide",
-        "length": "1:30:20",
-        "date": "2026-10-30",
         "exact": false
       }
     ],
