@@ -1,7 +1,14 @@
 {
-  "generatedAt": "2026-11-12T07:23:58.240Z",
+  "generatedAt": "2026-11-13T06:56:04.339Z",
   "shows": {
     "realyield": [
+      {
+        "v": "ROVLEI-YNM8",
+        "title": "Jensen Exits, AI Debt Under Review, Treasuries Slide",
+        "length": "42:54",
+        "date": "2026-11-12",
+        "exact": false
+      },
       {
         "v": "fNfpiLSJ0Lk",
         "title": "AI Fears Rattle Wall St., Safe Havens",
@@ -50,16 +57,16 @@
         "length": "43:04",
         "date": "2026-09-03",
         "exact": true
-      },
-      {
-        "v": "uOKfGB2yN2E",
-        "title": "Awaiting Warsh, AI 'Bust,' High Ed Fear | Real Yield 8/27/2026",
-        "length": "44:17",
-        "date": "2026-08-27",
-        "exact": true
       }
     ],
     "theclose": [
+      {
+        "v": "0y9o02dIPns",
+        "title": "Stocks Fall as Huang Resigns, Nvidia Turns to CFO",
+        "length": "1:44:06",
+        "date": "2026-11-12",
+        "exact": false
+      },
       {
         "v": "r05uI9Fnv6g",
         "title": "AI Trade Roars Back, Anthropic IPO Outlook, Nordstrom Co-CEO on Going Private",
@@ -107,13 +114,6 @@
         "title": "Midterms, Affordability & Markets",
         "length": "1:29:14",
         "date": "2026-11-03",
-        "exact": false
-      },
-      {
-        "v": "4nRyHk-v4yw",
-        "title": "Michigan Midterms, Apple Earnings & the Tech Selloff",
-        "length": "1:33:06",
-        "date": "2026-11-02",
         "exact": false
       }
     ],
