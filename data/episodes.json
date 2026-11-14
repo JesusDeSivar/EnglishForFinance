@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T06:42:32.125Z",
+  "generatedAt": "2026-11-14T18:16:51.215Z",
   "shows": {
     "realyield": [
       {
@@ -7,13 +7,6 @@
         "title": "Jensen Exits, AI Debt Under Review, Treasuries Slide",
         "length": "42:54",
         "date": "2026-11-12",
-        "exact": false
-      },
-      {
-        "v": "fNfpiLSJ0Lk",
-        "title": "AI Fears Rattle Wall St., Safe Havens",
-        "length": "42:42",
-        "date": "2026-11-05",
         "exact": false
       },
       {
@@ -56,6 +49,13 @@
         "title": "Awaiting Warsh, AI 'Bust,' High Ed Fear | Real Yield 8/27/2026",
         "length": "44:17",
         "date": "2026-08-27",
+        "exact": true
+      },
+      {
+        "v": "5tXMlxjGsiI",
+        "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
+        "length": "44:24",
+        "date": "2026-08-20",
         "exact": true
       }
     ],
