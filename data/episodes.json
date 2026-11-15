@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T22:33:07.790Z",
+  "generatedAt": "2026-11-15T06:47:29.930Z",
   "shows": {
     "realyield": [
       {
@@ -14,13 +14,6 @@
         "title": "AI Fears Rattle Wall St., Safe Havens",
         "length": "42:42",
         "date": "2026-11-05",
-        "exact": false
-      },
-      {
-        "v": "WJ0RVoLofJ4",
-        "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
-        "length": "41:19",
-        "date": "2026-10-17",
         "exact": false
       },
       {
@@ -56,6 +49,13 @@
         "title": "Global Bond Yields Rise, Waller Speaks Out | Real Yield 9/3/2026",
         "length": "43:04",
         "date": "2026-09-03",
+        "exact": true
+      },
+      {
+        "v": "uOKfGB2yN2E",
+        "title": "Awaiting Warsh, AI 'Bust,' High Ed Fear | Real Yield 8/27/2026",
+        "length": "44:17",
+        "date": "2026-08-27",
         "exact": true
       }
     ],
