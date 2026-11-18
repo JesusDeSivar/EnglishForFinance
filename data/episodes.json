@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T07:41:18.773Z",
+  "generatedAt": "2026-11-18T20:41:08.653Z",
   "shows": {
     "realyield": [
       {
@@ -7,20 +7,6 @@
         "title": "Jensen Exits, AI Debt Under Review, Treasuries Slide",
         "length": "42:54",
         "date": "2026-11-12",
-        "exact": false
-      },
-      {
-        "v": "fNfpiLSJ0Lk",
-        "title": "AI Fears Rattle Wall St., Safe Havens",
-        "length": "42:42",
-        "date": "2026-11-05",
-        "exact": false
-      },
-      {
-        "v": "WJ0RVoLofJ4",
-        "title": "Hot US Inflation, Treasury Safe Haven, CoreWeave's Credit Risk",
-        "length": "41:19",
-        "date": "2026-10-18",
         "exact": false
       },
       {
@@ -56,6 +42,20 @@
         "title": "Global Bond Yields Rise, Waller Speaks Out | Real Yield 9/3/2026",
         "length": "43:04",
         "date": "2026-09-03",
+        "exact": true
+      },
+      {
+        "v": "uOKfGB2yN2E",
+        "title": "Awaiting Warsh, AI 'Bust,' High Ed Fear | Real Yield 8/27/2026",
+        "length": "44:17",
+        "date": "2026-08-27",
+        "exact": true
+      },
+      {
+        "v": "5tXMlxjGsiI",
+        "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
+        "length": "44:24",
+        "date": "2026-08-20",
         "exact": true
       }
     ],
