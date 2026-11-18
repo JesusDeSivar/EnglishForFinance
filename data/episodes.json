@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T08:06:07.181Z",
+  "generatedAt": "2026-11-18T07:41:18.773Z",
   "shows": {
     "realyield": [
       {
@@ -61,6 +61,13 @@
     ],
     "theclose": [
       {
+        "v": "kMEGlz99E08",
+        "title": "Stocks End Lower For A 4th Straight Session, Nvidia Earnings",
+        "length": "1:40:48",
+        "date": "2026-11-17",
+        "exact": false
+      },
+      {
         "v": "Yt_wdKWStqM",
         "title": "Tech Under Pressure Ahead of Anthropic IPO, Stock Selloff Continues",
         "length": "1:31:24",
@@ -107,13 +114,6 @@
         "title": "Markets Rebound After Historic Tech Selloff",
         "length": "1:32:31",
         "date": "2026-11-06",
-        "exact": false
-      },
-      {
-        "v": "F52GZaYynQE",
-        "title": "Market Selloff, Volatility & Post-Midterm Repositioning",
-        "length": "1:42:18",
-        "date": "2026-11-05",
         "exact": false
       }
     ],
