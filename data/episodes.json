@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T07:28:44.820Z",
+  "generatedAt": "2026-11-20T20:31:12.694Z",
   "shows": {
     "realyield": [
       {
@@ -119,6 +119,13 @@
     ],
     "moneystuff": [
       {
+        "v": "_h9wCrGwn-A",
+        "title": "Fakeovers | Money Stuff: The Podcast",
+        "length": "30:52",
+        "date": "2026-11-20",
+        "exact": false
+      },
+      {
         "v": "D-_3sA73ouk",
         "title": "Loser Mentality | Money Stuff: The Podcast",
         "length": "40:00",
@@ -165,13 +172,6 @@
         "title": "Reintegration With the Default World | Money Stuff: The Podcast",
         "length": "41:30",
         "date": "2026-10-02",
-        "exact": false
-      },
-      {
-        "v": "8R4YsoNwbaw",
-        "title": "Re-run: Midnight Madness: Ryan Patch and Jon Seale | Money Stuff: The Podcast",
-        "length": "40:46",
-        "date": "2026-09-26",
         "exact": false
       }
     ]
