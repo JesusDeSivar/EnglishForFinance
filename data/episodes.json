@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T07:24:18.998Z",
+  "generatedAt": "2026-11-22T19:49:45.890Z",
   "shows": {
     "realyield": [
       {
@@ -7,6 +7,13 @@
         "title": "Jensen Exits, AI Debt Under Review, Treasuries Slide",
         "length": "42:54",
         "date": "2026-11-12",
+        "exact": false
+      },
+      {
+        "v": "A1BPJWX1Cso",
+        "title": "Lagarde's Exit, Safe Havens, Record Credit Sales",
+        "length": "42:29",
+        "date": "2026-11-01",
         "exact": false
       },
       {
@@ -49,13 +56,6 @@
         "title": "Global Bond Yields Rise, Waller Speaks Out | Real Yield 9/3/2026",
         "length": "43:04",
         "date": "2026-09-03",
-        "exact": true
-      },
-      {
-        "v": "uOKfGB2yN2E",
-        "title": "Awaiting Warsh, AI 'Bust,' High Ed Fear | Real Yield 8/27/2026",
-        "length": "44:17",
-        "date": "2026-08-27",
         "exact": true
       }
     ],
