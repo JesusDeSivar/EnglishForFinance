@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T08:35:58.525Z",
+  "generatedAt": "2026-11-26T21:42:50.898Z",
   "shows": {
     "realyield": [
       {
@@ -7,13 +7,6 @@
         "title": "Jensen Exits, AI Debt Under Review, Treasuries Slide",
         "length": "42:54",
         "date": "2026-11-13",
-        "exact": false
-      },
-      {
-        "v": "MUjZPuDYXUs",
-        "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
-        "length": "41:38",
-        "date": "2026-10-10",
         "exact": false
       },
       {
@@ -56,6 +49,13 @@
         "title": "Inflation Softens, Nvidia's $500B Plan | Real Yield 8/13/2026",
         "length": "42:12",
         "date": "2026-08-13",
+        "exact": true
+      },
+      {
+        "v": "-KljLw6Kz2o",
+        "title": "Fed Silence & Tightening Spread Environment | Real Yield 8/6/2026",
+        "length": "42:26",
+        "date": "2026-08-06",
         "exact": true
       }
     ],
