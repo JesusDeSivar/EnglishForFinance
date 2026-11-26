@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T21:49:40.428Z",
+  "generatedAt": "2026-11-26T08:35:58.525Z",
   "shows": {
     "realyield": [
       {
@@ -7,13 +7,6 @@
         "title": "Jensen Exits, AI Debt Under Review, Treasuries Slide",
         "length": "42:54",
         "date": "2026-11-13",
-        "exact": false
-      },
-      {
-        "v": "A1BPJWX1Cso",
-        "title": "Lagarde's Exit, Safe Havens, Record Credit Sales",
-        "length": "42:29",
-        "date": "2026-11-04",
         "exact": false
       },
       {
@@ -57,9 +50,23 @@
         "length": "44:24",
         "date": "2026-08-20",
         "exact": true
+      },
+      {
+        "v": "zCgg7u36IBw",
+        "title": "Inflation Softens, Nvidia's $500B Plan | Real Yield 8/13/2026",
+        "length": "42:12",
+        "date": "2026-08-13",
+        "exact": true
       }
     ],
     "theclose": [
+      {
+        "v": "isFCC0mJuzU",
+        "title": "Markets Stage a Stunning Reversal Ahead of Thanksgiving",
+        "length": "1:29:50",
+        "date": "2026-11-25",
+        "exact": false
+      },
       {
         "v": "VeCV3XT5EKM",
         "title": "AI Stocks Retreat as Markets Rotate Beyond Tech",
@@ -107,13 +114,6 @@
         "title": "Tech Under Pressure Ahead of Anthropic IPO, Stock Selloff Continues",
         "length": "1:31:24",
         "date": "2026-11-16",
-        "exact": false
-      },
-      {
-        "v": "tn91wjhbFX8",
-        "title": "Nvidia’s Board CEO Hunt, Stocks Finish Week Higher, Retail in Focus",
-        "length": "1:34:12",
-        "date": "2026-11-13",
         "exact": false
       }
     ],
