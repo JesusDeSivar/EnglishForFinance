@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T21:42:50.898Z",
+  "generatedAt": "2026-11-27T08:47:18.188Z",
   "shows": {
     "realyield": [
       {
@@ -7,6 +7,20 @@
         "title": "Jensen Exits, AI Debt Under Review, Treasuries Slide",
         "length": "42:54",
         "date": "2026-11-13",
+        "exact": false
+      },
+      {
+        "v": "MUjZPuDYXUs",
+        "title": "Global Bonds Pressure Markets, Hyperscaler Debt, Schools Strained",
+        "length": "41:38",
+        "date": "2026-10-28",
+        "exact": false
+      },
+      {
+        "v": "dq-oE539kzU",
+        "title": "Bond Yields Soar, Spiking Fed Rate Hike Bets",
+        "length": "36:36",
+        "date": "2026-09-28",
         "exact": false
       },
       {
@@ -42,20 +56,6 @@
         "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
         "length": "44:24",
         "date": "2026-08-20",
-        "exact": true
-      },
-      {
-        "v": "zCgg7u36IBw",
-        "title": "Inflation Softens, Nvidia's $500B Plan | Real Yield 8/13/2026",
-        "length": "42:12",
-        "date": "2026-08-13",
-        "exact": true
-      },
-      {
-        "v": "-KljLw6Kz2o",
-        "title": "Fed Silence & Tightening Spread Environment | Real Yield 8/6/2026",
-        "length": "42:26",
-        "date": "2026-08-06",
         "exact": true
       }
     ],
