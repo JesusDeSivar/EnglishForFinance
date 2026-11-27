@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T08:47:18.188Z",
+  "generatedAt": "2026-11-27T21:26:51.985Z",
   "shows": {
     "realyield": [
       {
@@ -119,6 +119,13 @@
     ],
     "moneystuff": [
       {
+        "v": "4s0UjzfErSc",
+        "title": "Mary in America: Adriana Robertson | Money Stuff: The Podcast",
+        "length": "37:32",
+        "date": "2026-11-27",
+        "exact": false
+      },
+      {
         "v": "_h9wCrGwn-A",
         "title": "Fakeovers | Money Stuff: The Podcast",
         "length": "30:52",
@@ -165,13 +172,6 @@
         "title": "Jeremy Maletz | Money Stuff: The Podcast",
         "length": "54:25",
         "date": "2026-10-09",
-        "exact": false
-      },
-      {
-        "v": "9RAw5LE25l8",
-        "title": "Reintegration With the Default World | Money Stuff: The Podcast",
-        "length": "41:30",
-        "date": "2026-10-02",
         "exact": false
       }
     ]
